@@ -1,0 +1,9 @@
+body { margin: 0 auto; background-color: #343434;}
+h1 { font-size: 80px; margin:0 0 20px 0; padding:0; color: #ff538e;}
+.main { width: 80%; margin: 100px auto; line-height: 1; text-align: center; font-weight: bold; }
+.time { display: inline-block; font-size: 150px; color: #ff538e; border-radius: 0px; -webkit-box-shadow: 0 0 1px rgba(0,0,0,0.5); box-shadow: 0 0 1px rgba(0,0,0,0.5); padding: 30px 15px; margin-right: 10px; }
+#next { font-size: 40px; padding-top: 20px; color: #ff538e; }
+#nextStart { margin-left: 30px; }
+#finish { font-size: 60px; line-height: 1.2; color: #a3a60f; -webkit-text-shadow: 0 1px 2px rgba(0,0,0,0.5); -moz-text-shadow: 0 1px 2px rgba(0,0,0,0.5); text-shadow: 0 1px 2px rgba(0,0,0,0.5); }
+#finish .larger { font-size: 250%; }
+.small { font-size: 60px; color: #ff538e;}
