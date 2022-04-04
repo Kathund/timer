@@ -1,15 +1,15 @@
 
         var initArray = [
-            {period: "Warning Siren", fromHour: 8, fromMin: 10, toHour: 8, toMin: 14},
-            {period: "Form", fromHour: 8, fromMin: 15, toHour: 8, toMin: 30},
+            {period: "Warning Siren", fromHour: 8, fromMin: 10, toHour: 8, toMin: 15},
+            {period: "Form", fromHour: 8, fromMin: 16, toHour: 8, toMin: 30},
             {period: "Period 1", fromHour: 8, fromMin: 31, toHour: 9, toMin: 20},
             {period: "Period 2", fromHour: 9, fromMin: 21, toHour: 10, toMin: 10},
             {period: "Period 3", fromHour: 10, fromMin: 11, toHour: 11, toMin: 0},
             {period: "Recess", fromHour: 11, fromMin: 1, toHour: 11, toMin: 30},
-            {period: "Period 4", fromHour: 11, fromMin: 31, toHour: 12, toMin: 20},
+            {period: "Period 4", fromHour: 11, fromMin: 31, toHour: 12, toMin: 15},
             {period: "Period 5", fromHour: 12, fromMin: 21, toHour: 13, toMin: 5},
             {period: "Lunch", fromHour: 13, fromMin: 6, toHour: 13, toMin: 35},
-            {period: "Warning Siren", fromHour: 13, fromMin: 36, toHour: 13, toMin: 40},
+            {period: "Warning Siren", fromHour: 13, fromMin: 35, toHour: 13, toMin: 40},
             {period: "Period 6", fromHour: 13, fromMin: 41, toHour: 14, toMin: 25},
             {period: "Period 7", fromHour: 14, fromMin: 26, toHour: 15, toMin: 15},
             {period: "End of Day", fromHour: 15, fromMin: 16, toHour: 16, toMin: 30}
@@ -178,4 +178,11 @@
                 getSeconds(); //restart countdown
             }
         }
+
+
+function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+    element.classList.toggle("time-dark");
+ }
    

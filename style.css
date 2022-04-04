@@ -1,14 +1,10 @@
 body {
     margin: 0 auto; 
-    background-color: #343434;
+    background-color: #ffffff;
+    color: #000000;
+    transition: color 0.23s, background-color 0.23s;
 }
 
-h1 {
-    font-size: 80px;
-    margin:0 0 20px 0;
-    padding:0;
-    color: #ff538e;
-}
 
 .main {
     width: 80%;
@@ -20,40 +16,42 @@ h1 {
 
 .time {
     display: inline-block;
-    font-size: 150px; color: #ff538e;
+    font-size: 150px; color: #ffffff;
     border-radius: 8px;
     padding: 30px 15px;
     margin-right: 10px;
-    background: #2F2F2F;
+    background: rgba(0,0,0,0.9);
+    transition: color 0.23s, background-color 0.23s;
 }
 
-#next {
-    font-size: 40px;
-    padding-top: 20px;
-    color: #ff538e;
+.time-dark {
+    background: rgba(255, 255, 255, 0.9);
+    transition: background-color 0.23s;
 }
 
-#nextStart {
-    margin-left: 30px;
+h1, h2 {
+    font-size: 48px;
 }
 
-#finish {
-    font-size: 60px;
-    line-height: 1.2;
-    color: #a3a60f;
-    -webkit-text-shadow: 0 1px 2px rgba(0,0,0,0.5); 
-    -moz-text-shadow: 0 1px 2px rgba(0,0,0,0.5); 
-    text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+/* Dark mode*/
+
+button {
+    background-color: #ff0000;
+    border: none;
+    color: #000000;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: color 0.23s, background-color 0.23s;
 }
 
-#finish .larger {
-    font-size: 250%;
+.dark-mode {
+    background-color: #343434;
+    color: white;
+    transition: color 0.23s, background-color 0.23s;
 }
-
-.small {
-    font-size: 60px;
-    color: #ff538e;
-}
-
-/* Light mode*/
-
