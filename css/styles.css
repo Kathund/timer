@@ -44,9 +44,18 @@ button {
     font-size: 20px;
     border-radius: 16px;
     position: fixed;
+    transition: color 0.23s, background-color 0.23s;
+}
+
+.dark {
     bottom: 24px;
     right: 32px;
-    transition: color 0.23s, background-color 0.23s;
+}
+
+.reload {
+    bottom: 96px;
+    right: 12px;
+    transform: scale(75%);
 }
 
 .dark-mode {
